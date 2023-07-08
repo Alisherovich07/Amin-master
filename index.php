@@ -330,7 +330,7 @@
                     </div>
                     <div class="col-lg-3">
                         <div class="lp-item">
-                            <div class="lp-pic set-bg" data-setbg="img/latest-preview/lp-4.jpg">
+                            <div class="lp-pic set-bg" data-setbg="img/latest-preview/lp-5.jpg">
                                 <div class="review-loader">
                                     <div class="loader-circle-wrap">
                                         <div class="loader-circle">
@@ -352,7 +352,7 @@
                     </div>
                     <div class="col-lg-3">
                         <div class="lp-item">
-                            <div class="lp-pic set-bg" data-setbg="img/latest-preview/lp-4.jpg">
+                            <div class="lp-pic set-bg" data-setbg="img/latest-preview/lp-6.jpg">
                                 <div class="review-loader">
                                     <div class="loader-circle-wrap">
                                         <div class="loader-circle">
@@ -374,7 +374,7 @@
                     </div>
                     <div class="col-lg-3">
                         <div class="lp-item">
-                            <div class="lp-pic set-bg" data-setbg="img/latest-preview/lp-4.jpg">
+                            <div class="lp-pic set-bg" data-setbg="img/latest-preview/lp-7.jpg">
                                 <div class="review-loader">
                                     <div class="loader-circle-wrap">
                                         <div class="loader-circle">
@@ -396,7 +396,7 @@
                     </div>
                     <div class="col-lg-3">
                         <div class="lp-item">
-                            <div class="lp-pic set-bg" data-setbg="img/latest-preview/lp-4.jpg">
+                            <div class="lp-pic set-bg" data-setbg="img/latest-preview/lp-8.jpg">
                                 <div class="review-loader">
                                     <div class="loader-circle-wrap">
                                         <div class="loader-circle">
