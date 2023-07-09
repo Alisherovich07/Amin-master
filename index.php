@@ -39,16 +39,16 @@
         </div>
         <div class="hw-menu mobile-menu">
             <ul>
-                <li><a href="./index.html">Home</a></li>
+                <li><a href="./index.php">Home</a></li>
                 <li><a href="#">Pages <i class="fa fa-angle-down"></i></a>
                     <ul class="dropdown">
-                        <li><a href="./categories-list.html">Categories</a></li>
-                        <li><a href="./categories-grid.html">Categories grid</a></li>
-                        <li><a href="./typography.html">Typography</a></li>
-                        <li><a href="./details-post-default.html">Post default</a></li>
-                        <li><a href="./details-post-gallery.html">Post gallery</a></li>
-                        <li><a href="./details-post-review.html">Post review</a></li>
-                        <li><a href="./contact.html">Contact</a></li>
+                        <li><a href="./categories-list.php">Categories</a></li>
+                        <li><a href="./categories-grid.php">Categories grid</a></li>
+                        <li><a href="./typography.php">Typography</a></li>
+                        <li><a href="./details-post-default.php">Post default</a></li>
+                        <li><a href="./details-post-gallery.php">Post gallery</a></li>
+                        <li><a href="./details-post-review.php">Post review</a></li>
+                        <li><a href="./contact.php">Contact</a></li>
                     </ul>
                 </li>
                 <li><a href="#">Reviews <i class="fa fa-angle-down"></i></a>
@@ -1088,12 +1088,11 @@
                                                 <a href="https://www.youtube.com/watch?v=EzKkl64rRbM"
                                                     class="play-btn video-popup"><i class="fa fa-play"></i></a>
                                                 <div class="vg-text">
-                                                    <h5>THROUGH THE AGES' FIRST EXPANSION WILL BE RELEASING ON DIGITAL
-                                                        PLATFORMS...</h5>
                                                     <ul>
                                                         <li><i class="fa fa-clock-o"></i> Aug 01, 2019</li>
                                                         <li><i class="fa fa-comment-o"></i> 12</li>
                                                     </ul>
+
                                                 </div>
                                             </div>
                                         </div>
@@ -1102,12 +1101,11 @@
                                                 <a href="https://www.youtube.com/watch?v=EzKkl64rRbM"
                                                     class="play-btn video-popup"><i class="fa fa-play"></i></a>
                                                 <div class="vg-text">
-                                                    <h5>THROUGH THE AGES' FIRST EXPANSION WILL BE RELEASING ON DIGITAL
-                                                        PLATFORMS...</h5>
                                                     <ul>
                                                         <li><i class="fa fa-clock-o"></i> Aug 01, 2019</li>
                                                         <li><i class="fa fa-comment-o"></i> 12</li>
                                                     </ul>
+                                                
                                                 </div>
                                             </div>
                                         </div>
@@ -1118,7 +1116,7 @@
                                                 <a href="https://www.youtube.com/watch?v=EzKkl64rRbM"
                                                     class="play-btn video-popup"><i class="fa fa-play"></i></a>
                                                 <div class="vg-text">
-                                                    <h6>THis gam,ing laptop with Gtx 1660 ti and of ram is</h6>
+                                                    
                                                 </div>
                                             </div>
                                         </div>
@@ -1127,7 +1125,7 @@
                                                 <a href="https://www.youtube.com/watch?v=EzKkl64rRbM"
                                                     class="play-btn video-popup"><i class="fa fa-play"></i></a>
                                                 <div class="vg-text">
-                                                    <h6>THis gam,ing laptop with Gtx 1660 ti and of ram is</h6>
+                                                    
                                                 </div>
                                             </div>
                                         </div>
@@ -1136,7 +1134,7 @@
                                                 <a href="https://www.youtube.com/watch?v=EzKkl64rRbM"
                                                     class="play-btn video-popup"><i class="fa fa-play"></i></a>
                                                 <div class="vg-text">
-                                                    <h6>THis gam,ing laptop with Gtx 1660 ti and of ram is</h6>
+                                                   
                                                 </div>
                                             </div>
                                         </div>
@@ -1145,12 +1143,11 @@
                                 <div class="col-lg-12">
                                     <div class="row">
                                         <div class="col-md-6">
-                                            <div class="vg-item large-vg set-bg" data-setbg="img/videos/videos-1.jpg">
+                                            <div class="vg-item large-vg set-bg" data-setbg="img/videos/videos-6.jpg">
                                                 <a href="https://www.youtube.com/watch?v=EzKkl64rRbM"
                                                     class="play-btn video-popup"><i class="fa fa-play"></i></a>
                                                 <div class="vg-text">
-                                                    <h5>THROUGH THE AGES' FIRST EXPANSION WILL BE RELEASING ON DIGITAL
-                                                        PLATFORMS...</h5>
+                                                    
                                                     <ul>
                                                         <li><i class="fa fa-clock-o"></i> Aug 01, 2019</li>
                                                         <li><i class="fa fa-comment-o"></i> 12</li>
@@ -1159,12 +1156,11 @@
                                             </div>
                                         </div>
                                         <div class="col-md-6">
-                                            <div class="vg-item large-vg set-bg" data-setbg="img/videos/videos-2.jpg">
+                                            <div class="vg-item large-vg set-bg" data-setbg="img/videos/videos-7.jpg">
                                                 <a href="https://www.youtube.com/watch?v=EzKkl64rRbM"
                                                     class="play-btn video-popup"><i class="fa fa-play"></i></a>
                                                 <div class="vg-text">
-                                                    <h5>THROUGH THE AGES' FIRST EXPANSION WILL BE RELEASING ON DIGITAL
-                                                        PLATFORMS...</h5>
+                                                   
                                                     <ul>
                                                         <li><i class="fa fa-clock-o"></i> Aug 01, 2019</li>
                                                         <li><i class="fa fa-comment-o"></i> 12</li>
@@ -1175,29 +1171,29 @@
                                     </div>
                                     <div class="row">
                                         <div class="col-md-4">
-                                            <div class="vg-item set-bg" data-setbg="img/videos/videos-3.jpg">
+                                            <div class="vg-item set-bg" data-setbg="img/videos/videos-8.jpg">
                                                 <a href="https://www.youtube.com/watch?v=EzKkl64rRbM"
                                                     class="play-btn video-popup"><i class="fa fa-play"></i></a>
                                                 <div class="vg-text">
-                                                    <h6>THis gam,ing laptop with Gtx 1660 ti and of ram is</h6>
+                                                   
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="col-md-4">
-                                            <div class="vg-item set-bg" data-setbg="img/videos/videos-4.jpg">
+                                            <div class="vg-item set-bg" data-setbg="img/videos/videos-9.jpg">
                                                 <a href="https://www.youtube.com/watch?v=EzKkl64rRbM"
                                                     class="play-btn video-popup"><i class="fa fa-play"></i></a>
                                                 <div class="vg-text">
-                                                    <h6>THis gam,ing laptop with Gtx 1660 ti and of ram is</h6>
+                                                   
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="col-md-4">
-                                            <div class="vg-item set-bg" data-setbg="img/videos/videos-5.jpg">
+                                            <div class="vg-item set-bg" data-setbg="img/videos/videos-10.jpg">
                                                 <a href="https://www.youtube.com/watch?v=EzKkl64rRbM"
                                                     class="play-btn video-popup"><i class="fa fa-play"></i></a>
                                                 <div class="vg-text">
-                                                    <h6>THis gam,ing laptop with Gtx 1660 ti and of ram is</h6>
+                                                  
                                                 </div>
                                             </div>
                                         </div>
@@ -1212,12 +1208,11 @@
                                 <div class="col-lg-12">
                                     <div class="row">
                                         <div class="col-md-6">
-                                            <div class="vg-item large-vg set-bg" data-setbg="img/videos/videos-1.jpg">
+                                            <div class="vg-item large-vg set-bg" data-setbg="img/videos/videos-11.jpg">
                                                 <a href="https://www.youtube.com/watch?v=EzKkl64rRbM"
                                                     class="play-btn video-popup"><i class="fa fa-play"></i></a>
                                                 <div class="vg-text">
-                                                    <h5>THROUGH THE AGES' FIRST EXPANSION WILL BE RELEASING ON DIGITAL
-                                                        PLATFORMS...</h5>
+                                                   
                                                     <ul>
                                                         <li><i class="fa fa-clock-o"></i> Aug 01, 2019</li>
                                                         <li><i class="fa fa-comment-o"></i> 12</li>
@@ -1226,12 +1221,11 @@
                                             </div>
                                         </div>
                                         <div class="col-md-6">
-                                            <div class="vg-item large-vg set-bg" data-setbg="img/videos/videos-2.jpg">
+                                            <div class="vg-item large-vg set-bg" data-setbg="img/videos/videos-12.jpg">
                                                 <a href="https://www.youtube.com/watch?v=EzKkl64rRbM"
                                                     class="play-btn video-popup"><i class="fa fa-play"></i></a>
                                                 <div class="vg-text">
-                                                    <h5>THROUGH THE AGES' FIRST EXPANSION WILL BE RELEASING ON DIGITAL
-                                                        PLATFORMS...</h5>
+                                                    
                                                     <ul>
                                                         <li><i class="fa fa-clock-o"></i> Aug 01, 2019</li>
                                                         <li><i class="fa fa-comment-o"></i> 12</li>
@@ -1242,29 +1236,29 @@
                                     </div>
                                     <div class="row">
                                         <div class="col-md-4">
-                                            <div class="vg-item set-bg" data-setbg="img/videos/videos-3.jpg">
+                                            <div class="vg-item set-bg" data-setbg="img/videos/videos-13.jpg">
                                                 <a href="https://www.youtube.com/watch?v=EzKkl64rRbM"
                                                     class="play-btn video-popup"><i class="fa fa-play"></i></a>
                                                 <div class="vg-text">
-                                                    <h6>THis gam,ing laptop with Gtx 1660 ti and of ram is</h6>
+                                                    
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="col-md-4">
-                                            <div class="vg-item set-bg" data-setbg="img/videos/videos-4.jpg">
+                                            <div class="vg-item set-bg" data-setbg="img/videos/videos-14.jpg">
                                                 <a href="https://www.youtube.com/watch?v=EzKkl64rRbM"
                                                     class="play-btn video-popup"><i class="fa fa-play"></i></a>
                                                 <div class="vg-text">
-                                                    <h6>THis gam,ing laptop with Gtx 1660 ti and of ram is</h6>
+                                                    
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="col-md-4">
-                                            <div class="vg-item set-bg" data-setbg="img/videos/videos-5.jpg">
+                                            <div class="vg-item set-bg" data-setbg="img/videos/videos-15.jpg">
                                                 <a href="https://www.youtube.com/watch?v=EzKkl64rRbM"
                                                     class="play-btn video-popup"><i class="fa fa-play"></i></a>
                                                 <div class="vg-text">
-                                                    <h6>THis gam,ing laptop with Gtx 1660 ti and of ram is</h6>
+                                                    
                                                 </div>
                                             </div>
                                         </div>
@@ -1277,8 +1271,7 @@
                                                 <a href="https://www.youtube.com/watch?v=EzKkl64rRbM"
                                                     class="play-btn video-popup"><i class="fa fa-play"></i></a>
                                                 <div class="vg-text">
-                                                    <h5>THROUGH THE AGES' FIRST EXPANSION WILL BE RELEASING ON DIGITAL
-                                                        PLATFORMS...</h5>
+                                                    
                                                     <ul>
                                                         <li><i class="fa fa-clock-o"></i> Aug 01, 2019</li>
                                                         <li><i class="fa fa-comment-o"></i> 12</li>
@@ -1291,8 +1284,7 @@
                                                 <a href="https://www.youtube.com/watch?v=EzKkl64rRbM"
                                                     class="play-btn video-popup"><i class="fa fa-play"></i></a>
                                                 <div class="vg-text">
-                                                    <h5>THROUGH THE AGES' FIRST EXPANSION WILL BE RELEASING ON DIGITAL
-                                                        PLATFORMS...</h5>
+                                                    
                                                     <ul>
                                                         <li><i class="fa fa-clock-o"></i> Aug 01, 2019</li>
                                                         <li><i class="fa fa-comment-o"></i> 12</li>
@@ -1307,7 +1299,7 @@
                                                 <a href="https://www.youtube.com/watch?v=EzKkl64rRbM"
                                                     class="play-btn video-popup"><i class="fa fa-play"></i></a>
                                                 <div class="vg-text">
-                                                    <h6>THis gam,ing laptop with Gtx 1660 ti and of ram is</h6>
+                                                   
                                                 </div>
                                             </div>
                                         </div>
@@ -1316,7 +1308,7 @@
                                                 <a href="https://www.youtube.com/watch?v=EzKkl64rRbM"
                                                     class="play-btn video-popup"><i class="fa fa-play"></i></a>
                                                 <div class="vg-text">
-                                                    <h6>THis gam,ing laptop with Gtx 1660 ti and of ram is</h6>
+                                                  
                                                 </div>
                                             </div>
                                         </div>
@@ -1325,7 +1317,7 @@
                                                 <a href="https://www.youtube.com/watch?v=EzKkl64rRbM"
                                                     class="play-btn video-popup"><i class="fa fa-play"></i></a>
                                                 <div class="vg-text">
-                                                    <h6>THis gam,ing laptop with Gtx 1660 ti and of ram is</h6>
+                                                    
                                                 </div>
                                             </div>
                                         </div>
@@ -1344,8 +1336,7 @@
                                                 <a href="https://www.youtube.com/watch?v=EzKkl64rRbM"
                                                     class="play-btn video-popup"><i class="fa fa-play"></i></a>
                                                 <div class="vg-text">
-                                                    <h5>THROUGH THE AGES' FIRST EXPANSION WILL BE RELEASING ON DIGITAL
-                                                        PLATFORMS...</h5>
+                                                    
                                                     <ul>
                                                         <li><i class="fa fa-clock-o"></i> Aug 01, 2019</li>
                                                         <li><i class="fa fa-comment-o"></i> 12</li>
@@ -1358,8 +1349,7 @@
                                                 <a href="https://www.youtube.com/watch?v=EzKkl64rRbM"
                                                     class="play-btn video-popup"><i class="fa fa-play"></i></a>
                                                 <div class="vg-text">
-                                                    <h5>THROUGH THE AGES' FIRST EXPANSION WILL BE RELEASING ON DIGITAL
-                                                        PLATFORMS...</h5>
+                                                   
                                                     <ul>
                                                         <li><i class="fa fa-clock-o"></i> Aug 01, 2019</li>
                                                         <li><i class="fa fa-comment-o"></i> 12</li>
@@ -1374,7 +1364,7 @@
                                                 <a href="https://www.youtube.com/watch?v=EzKkl64rRbM"
                                                     class="play-btn video-popup"><i class="fa fa-play"></i></a>
                                                 <div class="vg-text">
-                                                    <h6>THis gam,ing laptop with Gtx 1660 ti and of ram is</h6>
+                                                    
                                                 </div>
                                             </div>
                                         </div>

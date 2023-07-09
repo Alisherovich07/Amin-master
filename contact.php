@@ -39,16 +39,16 @@
         </div>
         <div class="hw-menu mobile-menu">
             <ul>
-                <li><a href="./index.html">Home</a></li>
+                <li><a href="./index.php">Home</a></li>
                 <li><a href="#">Pages <i class="fa fa-angle-down"></i></a>
                     <ul class="dropdown">
-                        <li><a href="./categories-list.html">Categories</a></li>
-                        <li><a href="./categories-grid.html">Categories grid</a></li>
+                        <li><a href="./categories-list.php">Categories</a></li>
+                        <li><a href="./categories-grid.php">Categories grid</a></li>
                         <li><a href="./typography.html">Typography</a></li>
-                        <li><a href="./details-post-default.html">Post default</a></li>
-                        <li><a href="./details-post-gallery.html">Post gallery</a></li>
-                        <li><a href="./details-post-review.html">Post review</a></li>
-                        <li><a href="./contact.html">Contact</a></li>
+                        <li><a href="./details-post-default.php">Post default</a></li>
+                        <li><a href="./details-post-gallery.php">Post gallery</a></li>
+                        <li><a href="./details-post-review.php">Post review</a></li>
+                        <li><a href="./contact.php">Contact</a></li>
                     </ul>
                 </li>
                 <li><a href="#">Reviews <i class="fa fa-angle-down"></i></a>
