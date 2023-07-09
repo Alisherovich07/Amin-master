@@ -103,7 +103,7 @@
 
     <!-- Header Section Begin -->
    <?php
-   include_once('/include/header.php');
+   include_once('./include/header.php');
    ?>
     <!-- Header End -->
 

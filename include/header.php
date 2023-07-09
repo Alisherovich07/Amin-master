@@ -26,7 +26,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12 text-center">
-                       <a href="./index.php"><img src="img/logo.png" alt=""></a>
+                       <a href="./index.php"><h1>MbM</h1 style="color:#EC6090FF"></a style="height:10px;">
                     </div>
                 </div>
             </div>
