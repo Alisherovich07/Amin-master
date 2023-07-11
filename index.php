@@ -1616,7 +1616,7 @@
                         </div>
                         <div class="ip-text">
                             <div class="label"><span>Windows</span></div>
-                            <h5><a href="#">Infinity Ward's focus isn't on battle royale, Call of...</a></h5>
+                            <h5><a href="#">Infinity Ward's focus isn't on battle royale, Call o...</a></h5>
                             <ul>
                                 <li>by <span>Admin</span></li>
                                 <li><i class="fa fa-clock-o"></i> Aug 01, 2019</li>
