@@ -39,7 +39,7 @@
         </div>
         <div class="hw-menu mobile-menu">
             <ul>
-                <li><a href="./index.php">Home</a></li>
+                <li><a href="./index.php">Hom</a></li>
                 <li><a href="#">Pages <i class="fa fa-angle-down"></i></a>
                     <ul class="dropdown">
                         <li><a href="./categories-list.php">Categories</a></li>
