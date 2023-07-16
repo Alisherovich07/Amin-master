@@ -23,19 +23,19 @@
     <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
     <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
     <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
 </head>
-
 <body>
     <!-- Page Preloder -->
     <div id="preloder">
         <div class="loader"></div>
     </div>
-
+    
     <!-- Humberger Menu Begin -->
     <div class="humberger-menu-overlay"></div>
     <div class="humberger-menu-wrapper">
         <div class="hw-logo">
-            <a href="#"><img src="img/f-logo.png" alt=""></a>
+            <a href="#"><h1>MbM</h1></a>
         </div>
         <div class="hw-menu mobile-menu">
             <ul>

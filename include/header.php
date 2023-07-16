@@ -5,7 +5,7 @@
                     <div class="col-lg-6 col-md-8">
                         <div class="ht-widget">
                             <ul>
-                                <li class="signup-switch signup-open"><i class="fa fa-sign-out"></i> Login / Sign up
+                                <a style="color:#fff" href="./login.php"><li class="signup-switch signup-open"><i class="fa fa-sign-out"></i>Sign Up </a>
                                 </li>
                             </ul>
                         </div>
@@ -26,7 +26,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12 text-center">
-                       <a href="./index.php"><h1>MbM</h1 style="color:#EC6090FF"></a style="height:10px;">
+                       <h1><a href="#"></a>MbM</h1 style="color:#fff">
                     </div>
                 </div>
             </div>
@@ -45,73 +45,73 @@
                         <li class="mega-menu"><a href="#"><span>Platform <i class="fa fa-angle-down"></i></span></a>
                             <div class="megamenu-wrapper">
                                 <ul class="mw-nav">
-                                    <li><a href="#"><span>Playstation</span></a></li>
+                                    <li><a href="https://www.playstation.com/en-us/ps5/games/"><span>Playstation</span></a></li>
                                     <li><a href="#"><span>Windows</span></a></li>
-                                    <li><a href="#"><span>Mobile</span></a></li>
-                                    <li><a href="#"><span>Xbox</span></a></li>
+                                    <li><a href="https://www.taptap.io/?utm_medium=seo&utm_source=google"><span>Mobile</span></a></li>
+                                    <li><a href="https://www.xbox.com/en-US/games"><span>Xbox</span></a></li>
                                 </ul>
                                 <div class="mw-post">
                                     <div class="mw-post-item">
                                         <div class="mw-pic">
-                                            <img src="img/megamenu/mm-1.jpg" alt="">
+                                            <img src="img/megamenu/mm-6.jpg" alt="">
                                         </div>
                                         <div class="mw-text">
-                                            <h6><a href="#">A Monster Prom poster got hijacked for a Papa Roach
-                                                    concert...</a></h6>
+                                            <h6><a href="https://store.steampowered.com/app/812140/Assassins_Creed_Odyssey/">assassin creed is a game depicting the life and bloody battles of assassins
+                                                    ...</a></h6>
                                             <ul>
-                                                <li><i class="fa fa-clock-o"></i> Aug 01, 2019</li>
+                                                <li><i class="fa fa-clock-o"></i> <?= date('M d, Y');?></li>
                                                 <li><i class="fa fa-comment-o"></i> 12</li>
                                             </ul>
                                         </div>
                                     </div>
                                     <div class="mw-post-item">
                                         <div class="mw-pic">
-                                            <img src="img/megamenu/mm-2.jpg" alt="">
+                                            <img src="./img/megamenu/mm-2.jpg" alt="">
                                         </div>
                                         <div class="mw-text">
-                                            <h6><a href="#">A new Borderlands 3 trailer introduces Moze and her...</a>
+                                            <h6><a href="https://store.steampowered.com/app/570/Dota_2/">A new Borderlands 3 trailer introduces Moze and her...</a>
                                             </h6>
                                             <ul>
-                                                <li><i class="fa fa-clock-o"></i> Aug 01, 2019</li>
+                                                <li><i class="fa fa-clock-o"></i> <?= date('M d, Y');?></li>
                                                 <li><i class="fa fa-comment-o"></i> 12</li>
                                             </ul>
                                         </div>
                                     </div>
                                     <div class="mw-post-item">
                                         <div class="mw-pic">
-                                            <img src="img/megamenu/mm-3.jpg" alt="">
+                                            <img src="img/megamenu/mm-8.jpg" alt="">
                                         </div>
                                         <div class="mw-text">
-                                            <h6><a href="#">Teamfight Tactics is in chaos after today's patch...</a>
+                                            <h6><a href="https://store.steampowered.com/app/730/CounterStrike_Global_Offensive/">Teamfight Tactics is in chaos after today's patch...</a>
                                             </h6>
                                             <ul>
-                                                <li><i class="fa fa-clock-o"></i> Aug 01, 2019</li>
+                                                <li><i class="fa fa-clock-o"></i> <?= date('M d, Y');?></li>
                                                 <li><i class="fa fa-comment-o"></i> 12</li>
                                             </ul>
                                         </div>
                                     </div>
                                     <div class="mw-post-item">
                                         <div class="mw-pic">
-                                            <img src="img/megamenu/mm-4.jpg" alt="">
+                                            <img src="img/megamenu/mm-9.jpg" alt="">
                                         </div>
                                         <div class="mw-text">
-                                            <h6><a href="#">Borderlands 2 dev explains why there's mysterious
-                                                    boxes...</a></h6>
+                                            <h6><a href="https://store.steampowered.com/app/1172470/Apex_Legends/">An interesting game in the genre of apex legends shooter
+                                                ...</a></h6>
                                             <ul>
-                                                <li><i class="fa fa-clock-o"></i> Aug 01, 2019</li>
+                                                <li><i class="fa fa-clock-o"></i> <?= date('M d, Y');?></li>
                                                 <li><i class="fa fa-comment-o"></i> 12</li>
                                             </ul>
                                         </div>
                                     </div>
                                     <div class="mw-post-item">
                                         <div class="mw-pic">
-                                            <img src="img/megamenu/mm-5.jpg" alt="">
+                                            <img src="img/megamenu/mm-10.jpg" alt="">
                                         </div>
                                         <div class="mw-text">
-                                            <h6><a href="#">Capcom asks select fans to test new Resident Evil game</a>
+                                            <h6><a href="https://store.steampowered.com/app/2050650/Resident_Evil_4/">Capcom asks select fans to test new Resident Evil game</a>
                                             </h6>
                                             <ul>
-                                                <li><i class="fa fa-clock-o"></i> Aug 01, 2019</li>
+                                                <li><i class="fa fa-clock-o"></i> <?= date('M d, Y');?></li>
                                                 <li><i class="fa fa-comment-o"></i> 12</li>
                                             </ul>
                                         </div>
@@ -131,10 +131,21 @@
                                 <li><a href="./contact.php">Contact</a></li>
                             </ul>
                         </li>
-                        <li><a href="#"><span>Windows <i class="fa fa-angle-down"></i></span></a></li>
+                        <li>
+                            <a href="#"><span>Windows<i class="fa fa-angle-down"></i></span></a>
+                            <ul class="dropdown">
+                                <li><a href="./online-games.php">Online Games</a></li>
+                                <li><a href="./shooter.php">Shooter</a></li>
+                                <li><a href="./horror.php">Horror</a></li>
+                                <li><a href="./race.php">Race</a></li>
+                                <li><a href="./adventure.php">Adventure</a></li>
+                                <li><a href="./strategy.php">Strategy</a></li>
+                            </ul>
+                        </li>
                         <li><a href="#"><span>Videos <i class="fa fa-angle-down"></i></span></a></li>
                     </ul>
                 </div>
             </div>
         </div>
     </header>
+    

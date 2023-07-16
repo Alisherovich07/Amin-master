@@ -1,12 +1,3 @@
-/******************************************************************
-  Template Name: Amin
-  Description:  Amin magazine HTML Template
-  Author: Colorlib
-  Author URI: https://colorlib.com
-  Version: 1.0
-  Created: Colorlib
-******************************************************************/
-
 /*------------------------------------------------------------------
 [Table of contents]
 
@@ -47,7 +38,7 @@ h4,
 h5,
 h6 {
 	margin: 0;
-	color: #111111;
+	color: #fff;
 	font-weight: 400;
 	font-family: "Cinzel", serif;
 }
@@ -776,39 +767,40 @@ ol {
 }
 
 .logo {
-	background: #0d0d0d;
+	background: #17181AFF;
 	padding: 44px 0;
 }
 
 .logo a {
 	display: inline-block;
+	color: #fff;
 }
 
 .nav-options {
-	background: #EC6090FF;
+	background: #E718A3FF;
 	padding: 10px 0;
 }
 
 .nav-options.humberger-change {
-	background: #310a0a;
+	background: #E718A3FF;
 	-webkit-transition: all 0.3s;
 	-o-transition: all 0.3s;
 	transition: all 0.3s;
 }
 
 .nav-options.humberger-change .humberger-menu {
-	background: #4e0808;
+	background: #E718A3FF;
 	-webkit-transition: all 0.3s;
 	-o-transition: all 0.3s;
 	transition: all 0.3s;
 }
 
 .nav-options.humberger-change .nav-menu ul li a {
-	background: #4e0808;
+	background: #E718A3FF;
 }
 
 .nav-options.humberger-change .nav-search {
-	background: #4e0808;
+	background: #E718A3FF;
 	-webkit-transition: all 0.3s;
 	-o-transition: all 0.3s;
 	transition: all 0.3s;
@@ -817,7 +809,7 @@ ol {
 .nav-options .humberger-menu {
 	font-size: 15px;
 	color: #ffffff;
-	background: #EC6090FF;
+	background: #E718A3FF;
 	float: left;
 	padding: 15px 28px;
 	-webkit-transform: skewX(-15deg);
@@ -915,7 +907,7 @@ ol {
 }
 
 .nav-options .nav-menu ul li .megamenu-wrapper .mw-nav li a:hover {
-	color: #EC6090FF;
+	color: #E718A3FF;
 	text-shadow: none;
 }
 
@@ -1023,11 +1015,11 @@ ol {
 }
 
 .nav-options .nav-menu ul li.active a {
-	background: #EC6090FF;
+	background: #E718A3FF;
 }
 
 .nav-options .nav-menu ul li:hover>a {
-	background: #EC6090FF;
+	background: #E718A3FF;
 	text-shadow: 1px 0px 0px #ffffff;
 }
 
@@ -1049,7 +1041,7 @@ ol {
 	text-transform: uppercase;
 	padding: 17px 15px 13px 30px;
 	display: inline-block;
-	background: #EC6090FF;
+	background: #E718A3FF;
 	-webkit-transform: skewX(-15deg);
 	-ms-transform: skewX(-15deg);
 	transform: skewX(-15deg);
@@ -1076,7 +1068,7 @@ ol {
 	-webkit-transform: skewX(-15deg);
 	-ms-transform: skewX(-15deg);
 	transform: skewX(-15deg);
-	background: #EC6090FF;
+	background: #E718A3FF;
 	padding: 15px 25px;
 	display: inline-block;
 	float: right;
@@ -1111,7 +1103,7 @@ ol {
 .hs-text .label {
 	display: inline-block;
 	padding: 4px 7px 4px 12px;
-	background: rgba(194, 0, 0, 0.3);
+	background: #EC6090FF;
 	-webkit-transform: skewX(-15deg);
 	-ms-transform: skewX(-15deg);
 	transform: skewX(-15deg);
@@ -1458,7 +1450,7 @@ ol {
 }
 
 .tab-elem .nav-item .nav-link.active {
-	color: #c20000;
+	color: #EC6090FF;
 	background-color: transparent;
 	border-color: transparent;
 }
@@ -1499,7 +1491,7 @@ ol {
 .un-slider .un-big-item .ub-text .label {
 	display: inline-block;
 	padding: 2px 7px 2px 12px;
-	background: rgba(194, 0, 0, 0.5);
+	background: #EC6090FF;
 	-webkit-transform: skewX(-15deg);
 	-ms-transform: skewX(-15deg);
 	transform: skewX(-15deg);
@@ -1813,7 +1805,7 @@ ol {
 
 .vg-item .play-btn {
 	font-size: 25px;
-	color: #c20000;
+	color: #EC6090FF;
 	position: relative;
 	z-index: 99;
 }
@@ -1861,7 +1853,7 @@ ol {
 .ip-item .ip-text .label {
 	display: inline-block;
 	padding: 2px 10px 2px 12px;
-	background: rgba(194, 0, 0, 0.3);
+	background: #EC6090FF;
 	-webkit-transform: skewX(-15deg);
 	-ms-transform: skewX(-15deg);
 	transform: skewX(-15deg);
@@ -1913,7 +1905,7 @@ ol {
 }
 
 .ip-item .ip-text ul li span {
-	color: #c20000;
+	color: #EC6090FF;
 }
 
 .ip-item .ip-text ul li:last-child {
@@ -2125,7 +2117,7 @@ ol {
 	color: #eaeaea;
 	text-transform: uppercase;
 	letter-spacing: 0.5px;
-	background: #680606;
+	background: #EC6090FF;
 	border: none;
 	width: 100%;
 	padding: 12px 0;
@@ -2264,6 +2256,9 @@ ol {
 	-ms-transform: skewX(15deg);
 	transform: skewX(15deg);
 }
+.tags-cloud .tag-list a:hover{
+	color: #d959ac;
+}
 
 .copyright-area {
 	border-top: 1px solid #252525;
@@ -2277,7 +2272,7 @@ ol {
 }
 
 .copyright-area .ca-text i {
-	color: #c20000;
+	color: #EC6090FF;
 }
 
 .copyright-area .ca-text a {
@@ -2285,7 +2280,7 @@ ol {
 }
 
 .copyright-area .ca-text a:hover {
-	color: #c20000;
+	color: #EC6090FF;
 }
 
 .copyright-area .ca-links {
@@ -2317,7 +2312,7 @@ ol {
 }
 
 .breadcrumb-text h3 span {
-	color: #c20000;
+	color: #EC6090FF;
 }
 
 .breadcrumb-text .bt-option a {
@@ -2338,7 +2333,7 @@ ol {
 
 .breadcrumb-text .bt-option span {
 	font-size: 15px;
-	color: #c20000;
+	color: #EC6090FF;
 	display: inline-block;
 }
 
@@ -2363,7 +2358,7 @@ ol {
 .cg-item .cg-pic .label {
 	display: inline-block;
 	padding: 2px 12px 2px 12px;
-	background: rgba(194, 0, 0, 0.5);
+	background: #EC6090FF;
 	-webkit-transform: skewX(-15deg);
 	-ms-transform: skewX(-15deg);
 	transform: skewX(-15deg);
@@ -2419,7 +2414,7 @@ ol {
 }
 
 .cg-item .cg-text ul li span {
-	color: #c20000;
+	color: #EC6090FF;
 }
 
 .cg-item .cg-text ul li:last-child {
@@ -2469,7 +2464,7 @@ ol {
 .cl-item .cl-text .label {
 	display: inline-block;
 	padding: 2px 12px 2px 12px;
-	background: rgba(194, 0, 0, 0.3);
+	background: #EC6090FF;
 	-webkit-transform: skewX(-15deg);
 	-ms-transform: skewX(-15deg);
 	transform: skewX(-15deg);
@@ -2520,7 +2515,7 @@ ol {
 }
 
 .cl-item .cl-text ul li span {
-	color: #c20000;
+	color: #EC6090FF;
 }
 
 .cl-item .cl-text ul li:last-child {
@@ -2565,7 +2560,7 @@ ol {
 .contact-form .dt-title-gallery .label {
 	display: inline-block;
 	padding: 2px 12px 2px 12px;
-	background: rgba(194, 0, 0, 0.3);
+	background: #EC6090FF;
 	-webkit-transform: skewX(-15deg);
 	-ms-transform: skewX(-15deg);
 	transform: skewX(-15deg);
@@ -2618,7 +2613,7 @@ ol {
 .details-hero-text ul li span,
 .details-text .dt-title-gallery ul li span,
 .contact-form .dt-title-gallery ul li span {
-	color: #c20000;
+	color: #EC6090FF;
 }
 
 .details-hero-text ul li:last-child,
@@ -2669,7 +2664,7 @@ ol {
 
 .details-text .dt-quote,
 .contact-form .dt-quote {
-	background: #680606;
+	background: #EC6090FF;
 	padding: 26px 25px 24px 30px;
 	position: relative;
 	z-index: 1;
@@ -2700,7 +2695,7 @@ ol {
 
 .details-text .dt-quote p span,
 .contact-form .dt-quote p span {
-	color: #c20000;
+	color: #EC6090FF;
 }
 
 .details-text .dt-item,
@@ -3404,7 +3399,7 @@ ol {
 
 .details-text .dt-overall-rating .or-qualities .qualities-item.bad-item i,
 .contact-form .dt-overall-rating .or-qualities .qualities-item.bad-item i {
-	color: #c20000;
+	color: #EC6090FF;
 }
 
 .details-text .dt-overall-rating .or-qualities .qualities-item p,
@@ -3572,7 +3567,7 @@ ol {
 }
 
 .contact-form .dt-leave-comment form button {
-	background: #680606;
+	background: #EC6090FF;
 	font-size: 14px;
 }
 
@@ -4183,3 +4178,5 @@ ol {
 		font-size: 28px;
 	}
 }
+
+

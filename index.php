@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="zxx">
 
@@ -23,6 +24,7 @@
     <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
     <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
     <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
 </head>
 
 <body>
@@ -35,11 +37,11 @@
     <div class="humberger-menu-overlay"></div>
     <div class="humberger-menu-wrapper">
         <div class="hw-logo">
-            <a href="#"><img src="img/f-logo.png" alt=""></a>
+            <a href="#"><h1>MbM</h1></a>
         </div>
         <div class="hw-menu mobile-menu">
             <ul>
-                <li><a href="./index.php">Hom</a></li>
+                <li><a href="./index.php">Home</a></li>
                 <li><a href="#">Pages <i class="fa fa-angle-down"></i></a>
                     <ul class="dropdown">
                         <li><a href="./categories-list.php">Categories</a></li>
@@ -49,14 +51,6 @@
                         <li><a href="./details-post-gallery.php">Post gallery</a></li>
                         <li><a href="./details-post-review.php">Post review</a></li>
                         <li><a href="./contact.php">Contact</a></li>
-                    </ul>
-                </li>
-                <li><a href="#">Reviews <i class="fa fa-angle-down"></i></a>
-                    <ul class="dropdown">
-                        <li><a href="#">Playstation</a></li>
-                        <li><a href="#">Windows</a></li>
-                        <li><a href="#">Mobile</a></li>
-                        <li><a href="#">Xbox</a></li>
                     </ul>
                 </li>
                 <li><a href="#">Windows <i class="fa fa-angle-down"></i></a>
@@ -79,7 +73,7 @@
         </div>
         <div id="mobile-menu-wrap"></div>
         <div class="hw-copyright">
-        <script>document.write(new Date().getFullYear());</script>
+        <?= date('d.m.Y');?>
         </div>
         <div class="hw-social">
             <a href="#"><i class="fa fa-facebook"></i></a>
@@ -118,13 +112,12 @@
                         <div class="ht-meta">
                             <ul>
                                 <li>by Mustafo Alisherovich</li>
-                                <script>document.write(new Date().getFullYear());</script>
                             </ul>
                         </div>
                     </div>
                 </div>
                 <div class="col-xl-4 col-lg-5 col-md-6 offset-lg-1 offset-xl-2">
-                    <div class="trending-post">
+                    <div class="trending-post" style="opacity:0.8">
                         <div class="section-title">
                             <h5>Treding posts</h5>
                         </div>
@@ -138,7 +131,7 @@
                                         <h6><a href="#">Jalopy developer is making a game where you 'build stuff...</a>
                                         </h6>
                                         <ul>
-                                            <li><i class="fa fa-clock-o"></i> Aug 01, <script>document.write(new Date().getFullYear());</script></li>
+                                            <li><i class="fa fa-clock-o"></i> <?= date('M d, Y');?></li>
                                             <li><i class="fa fa-comment-o"></i></li>
                                         </ul>
                                     </div>
@@ -151,7 +144,7 @@
                                         <h6><a href="#">Valve updates Steam's new Interactive Reco- mmender, teases
                                                 a...</a></h6>
                                                 <ul>
-                                            <li><i class="fa fa-clock-o"></i> Aug 01, <script>document.write(new Date().getFullYear());</script></li>
+                                            <li><i class="fa fa-clock-o"></i> <?= date('M d, Y');?></li>
                                             <li><i class="fa fa-comment-o"></i></li>
                                         </ul>
                                     </div>
@@ -164,7 +157,7 @@
                                         <h6><a href="#">Jalopy developer is making a game where you 'build stuff...</a>
                                         </h6>
                                         <ul>
-                                            <li><i class="fa fa-clock-o"></i> Aug 01, <script>document.write(new Date().getFullYear());</script></li>
+                                            <li><i class="fa fa-clock-o"></i> <?= date('M d, Y');?></li>
                                             <li><i class="fa fa-comment-o"></i></li>
                                         </ul>
                                     </div>
@@ -177,7 +170,7 @@
                                         <h6><a href="#">Jalopy developer is making a game where you 'build stuff...</a>
                                         </h6>
                                         <ul>
-                                            <li><i class="fa fa-clock-o"></i> Aug 01, <script>document.write(new Date().getFullYear());</script></li>
+                                            <li><i class="fa fa-clock-o"></i> <?= date('M d, Y');?></li>
                                             <li><i class="fa fa-comment-o"></i></li>
                                         </ul>
                                     </div>
@@ -192,7 +185,7 @@
                                         <h6><a href="#">Jalopy developer is making a game where you 'build stuff...</a>
                                         </h6>
                                         <ul>
-                                            <li><i class="fa fa-clock-o"></i> Aug 01, <script>document.write(new Date().getFullYear());</script></li>
+                                            <li><i class="fa fa-clock-o"></i> <?= date('M d, Y');?></li>
                                             <li><i class="fa fa-comment-o"></i></li>
                                         </ul>
                                     </div>
@@ -205,7 +198,7 @@
                                         <h6><a href="#">Valve updates Steam's new Interactive Reco- mmender, teases
                                                 a...</a></h6>
                                                 <ul>
-                                            <li><i class="fa fa-clock-o"></i> Aug 01, <script>document.write(new Date().getFullYear());</script></li>
+                                            <li><i class="fa fa-clock-o"></i> <?= date('M d, Y');?></li>
                                             <li><i class="fa fa-comment-o"></i></li>
                                         </ul>
                                     </div>
@@ -218,7 +211,7 @@
                                         <h6><a href="#">Jalopy developer is making a game where you 'build stuff...</a>
                                         </h6>
                                         <ul>
-                                            <li><i class="fa fa-clock-o"></i> Aug 01, <script>document.write(new Date().getFullYear());</script></li>
+                                            <li><i class="fa fa-clock-o"></i> <?= date('M d, Y');?></li>
                                             <li><i class="fa fa-comment-o"></i></li>
                                         </ul>
                                     </div>
@@ -231,7 +224,7 @@
                                         <h6><a href="#">Jalopy developer is making a game where you 'build stuff...</a>
                                         </h6>
                                         <ul>
-                                            <li><i class="fa fa-clock-o"></i> Aug 01, <script>document.write(new Date().getFullYear());</script></li>
+                                            <li><i class="fa fa-clock-o"></i> <?= date('M d, Y');?></li>
                                             <li><i class="fa fa-comment-o"></i></li>
                                         </ul>
                                     </div>
@@ -278,7 +271,7 @@
                             <div class="lp-text">
                                 <h6><a href="#">Teamfight Tactics is in chaos after patch...</a></h6>
                                 <ul>
-                                    <li><i class="fa fa-clock-o"></i> Aug 01, 2019</li>
+                                    <li><i class="fa fa-clock-o"></i> <?= date('M d, Y');?></li>
                                     <li><i class="fa fa-comment-o"></i> 12</li>
                                 </ul>
                             </div>
@@ -300,7 +293,7 @@
                             <div class="lp-text">
                                 <h6><a href="#">Lenovo’s y540 gaming laptop with an rtx 2060...</a></h6>
                                 <ul>
-                                    <li><i class="fa fa-clock-o"></i> Aug 01, 2019</li>
+                                    <li><i class="fa fa-clock-o"></i> <?= date('M d, Y');?></li>
                                     <li><i class="fa fa-comment-o"></i> 12</li>
                                 </ul>
                             </div>
@@ -322,7 +315,7 @@
                             <div class="lp-text">
                                 <h6><a href="#">A monter prom poster got hijacked for a...</a></h6>
                                 <ul>
-                                    <li><i class="fa fa-clock-o"></i> Aug 01, 2019</li>
+                                    <li><i class="fa fa-clock-o"></i> <?= date('M d, Y');?></li>
                                     <li><i class="fa fa-comment-o"></i> 12</li>
                                 </ul>
                             </div>
@@ -344,7 +337,7 @@
                             <div class="lp-text">
                                 <h6><a href="#">Facebook wants to read your thoughts with...</a></h6>
                                 <ul>
-                                    <li><i class="fa fa-clock-o"></i> Aug 01, 2019</li>
+                                    <li><i class="fa fa-clock-o"></i> <?= date('M d, Y');?></li>
                                     <li><i class="fa fa-comment-o"></i> 12</li>
                                 </ul>
                             </div>
@@ -366,7 +359,7 @@
                             <div class="lp-text">
                                 <h6><a href="#">Facebook wants to read your thoughts with...</a></h6>
                                 <ul>
-                                    <li><i class="fa fa-clock-o"></i> Aug 01, 2019</li>
+                                    <li><i class="fa fa-clock-o"></i> <?= date('M d, Y');?></li>
                                     <li><i class="fa fa-comment-o"></i> 12</li>
                                 </ul>
                             </div>
@@ -388,7 +381,7 @@
                             <div class="lp-text">
                                 <h6><a href="#">Facebook wants to read your thoughts with...</a></h6>
                                 <ul>
-                                    <li><i class="fa fa-clock-o"></i> Aug 01, 2019</li>
+                                    <li><i class="fa fa-clock-o"></i> <?= date('M d, Y');?></li>
                                     <li><i class="fa fa-comment-o"></i> 12</li>
                                 </ul>
                             </div>
@@ -410,7 +403,7 @@
                             <div class="lp-text">
                                 <h6><a href="#">Facebook wants to read your thoughts with...</a></h6>
                                 <ul>
-                                    <li><i class="fa fa-clock-o"></i> Aug 01, 2019</li>
+                                    <li><i class="fa fa-clock-o"></i> <?= date('M d, Y');?></li>
                                     <li><i class="fa fa-comment-o"></i> 12</li>
                                 </ul>
                             </div>
@@ -457,7 +450,7 @@
                                                             970 evo, for $120 less than nomal</a></h5>
                                                     <ul>
                                                         <li>by <span>Admin</span></li>
-                                                        <li><i class="fa fa-clock-o"></i> Aug 01, 2019</li>
+                                                        <li><i class="fa fa-clock-o"></i> <?= date('M d, Y');?></li>
                                                         <li><i class="fa fa-comment-o"></i> 20</li>
                                                     </ul>
                                                 </div>
@@ -472,7 +465,7 @@
                                                             <h6><a href="#">Downwell and space hulk: tactics are coming
                                                                     to...</a></h6>
                                                             <ul>
-                                                                <li><i class="fa fa-clock-o"></i> Aug 01, 2019</li>
+                                                                <li><i class="fa fa-clock-o"></i> <?= date('M d, Y');?></li>
                                                                 <li><i class="fa fa-comment-o"></i> 20</li>
                                                             </ul>
                                                         </div>
@@ -487,7 +480,7 @@
                                                             <h6><a href="#">Downwell and space hulk: tactics are coming
                                                                     to...</a></h6>
                                                             <ul>
-                                                                <li><i class="fa fa-clock-o"></i> Aug 01, 2019</li>
+                                                                <li><i class="fa fa-clock-o"></i> <?= date('M d, Y');?></li>
                                                                 <li><i class="fa fa-comment-o"></i> 20</li>
                                                             </ul>
                                                         </div>
@@ -502,7 +495,7 @@
                                                             <h6><a href="#">Downwell and space hulk: tactics are coming
                                                                     to...</a></h6>
                                                             <ul>
-                                                                <li><i class="fa fa-clock-o"></i> Aug 01, 2019</li>
+                                                                <li><i class="fa fa-clock-o"></i> <?= date('M d, Y');?></li>
                                                                 <li><i class="fa fa-comment-o"></i> 20</li>
                                                             </ul>
                                                         </div>
@@ -518,7 +511,7 @@
                                                             970 evo, for $120 less than nomal</a></h5>
                                                     <ul>
                                                         <li>by <span>Admin</span></li>
-                                                        <li><i class="fa fa-clock-o"></i> Aug 01, 2019</li>
+                                                        <li><i class="fa fa-clock-o"></i> <?= date('M d, Y');?></li>
                                                         <li><i class="fa fa-comment-o"></i> 20</li>
                                                     </ul>
                                                 </div>
@@ -533,7 +526,7 @@
                                                             <h6><a href="#">Downwell and space hulk: tactics are coming
                                                                     to...</a></h6>
                                                             <ul>
-                                                                <li><i class="fa fa-clock-o"></i> Aug 01, 2019</li>
+                                                                <li><i class="fa fa-clock-o"></i> <?= date('M d, Y');?></li>
                                                                 <li><i class="fa fa-comment-o"></i> 20</li>
                                                             </ul>
                                                         </div>
@@ -548,7 +541,7 @@
                                                             <h6><a href="#">Downwell and space hulk: tactics are coming
                                                                     to...</a></h6>
                                                             <ul>
-                                                                <li><i class="fa fa-clock-o"></i> Aug 01, 2019</li>
+                                                                <li><i class="fa fa-clock-o"></i> <?= date('M d, Y');?></li>
                                                                 <li><i class="fa fa-comment-o"></i> 20</li>
                                                             </ul>
                                                         </div>
@@ -563,7 +556,7 @@
                                                             <h6><a href="#">Downwell and space hulk: tactics are coming
                                                                     to...</a></h6>
                                                             <ul>
-                                                                <li><i class="fa fa-clock-o"></i> Aug 01, 2019</li>
+                                                                <li><i class="fa fa-clock-o"></i> <?= date('M d, Y');?></li>
                                                                 <li><i class="fa fa-comment-o"></i> 20</li>
                                                             </ul>
                                                         </div>
@@ -585,7 +578,7 @@
                                                             970 evo, for $120 less than nomal</a></h5>
                                                     <ul>
                                                         <li>by <span>Admin</span></li>
-                                                        <li><i class="fa fa-clock-o"></i> Aug 01, 2019</li>
+                                                        <li><i class="fa fa-clock-o"></i> <?= date('M d, Y');?></li>
                                                         <li><i class="fa fa-comment-o"></i> 20</li>
                                                     </ul>
                                                 </div>
@@ -600,7 +593,7 @@
                                                             <h6><a href="#">Downwell and space hulk: tactics are coming
                                                                     to...</a></h6>
                                                             <ul>
-                                                                <li><i class="fa fa-clock-o"></i> Aug 01, 2019</li>
+                                                                <li><i class="fa fa-clock-o"></i> <?= date('M d, Y');?></li>
                                                                 <li><i class="fa fa-comment-o"></i> 20</li>
                                                             </ul>
                                                         </div>
@@ -608,14 +601,14 @@
                                                 </div>
                                                 <div class="col-md-4">
                                                     <div class="un-item">
-                                                        <div class="un_pic set-bg" data-setbg="img/news/news-4.jpg">
+                                                        <div class="un_pic set-bg" data-setbg="img/news/news-6.jpg">
                                                             <div class="label"><span>Reviews</span></div>
                                                         </div>
                                                         <div class="un_text">
                                                             <h6><a href="#">Downwell and space hulk: tactics are coming
                                                                     to...</a></h6>
                                                             <ul>
-                                                                <li><i class="fa fa-clock-o"></i> Aug 01, 2019</li>
+                                                                <li><i class="fa fa-clock-o"></i> <?= date('M d, Y');?></li>
                                                                 <li><i class="fa fa-comment-o"></i> 20</li>
                                                             </ul>
                                                         </div>
@@ -630,7 +623,7 @@
                                                             <h6><a href="#">Downwell and space hulk: tactics are coming
                                                                     to...</a></h6>
                                                             <ul>
-                                                                <li><i class="fa fa-clock-o"></i> Aug 01, 2019</li>
+                                                                <li><i class="fa fa-clock-o"></i> <?= date('M d, Y');?></li>
                                                                 <li><i class="fa fa-comment-o"></i> 20</li>
                                                             </ul>
                                                         </div>
@@ -646,7 +639,7 @@
                                                             970 evo, for $120 less than nomal</a></h5>
                                                     <ul>
                                                         <li>by <span>Admin</span></li>
-                                                        <li><i class="fa fa-clock-o"></i> Aug 01, 2019</li>
+                                                        <li><i class="fa fa-clock-o"></i> <?= date('M d, Y');?></li>
                                                         <li><i class="fa fa-comment-o"></i> 20</li>
                                                     </ul>
                                                 </div>
@@ -661,7 +654,7 @@
                                                             <h6><a href="#">Downwell and space hulk: tactics are coming
                                                                     to...</a></h6>
                                                             <ul>
-                                                                <li><i class="fa fa-clock-o"></i> Aug 01, 2019</li>
+                                                                <li><i class="fa fa-clock-o"></i> <?= date('M d, Y');?></li>
                                                                 <li><i class="fa fa-comment-o"></i> 20</li>
                                                             </ul>
                                                         </div>
@@ -676,7 +669,7 @@
                                                             <h6><a href="#">Downwell and space hulk: tactics are coming
                                                                     to...</a></h6>
                                                             <ul>
-                                                                <li><i class="fa fa-clock-o"></i> Aug 01, 2019</li>
+                                                                <li><i class="fa fa-clock-o"></i> <?= date('M d, Y');?></li>
                                                                 <li><i class="fa fa-comment-o"></i> 20</li>
                                                             </ul>
                                                         </div>
@@ -691,7 +684,7 @@
                                                             <h6><a href="#">Downwell and space hulk: tactics are coming
                                                                     to...</a></h6>
                                                             <ul>
-                                                                <li><i class="fa fa-clock-o"></i> Aug 01, 2019</li>
+                                                                <li><i class="fa fa-clock-o"></i> <?= date('M d, Y');?></li>
                                                                 <li><i class="fa fa-comment-o"></i> 20</li>
                                                             </ul>
                                                         </div>
@@ -713,7 +706,7 @@
                                                             970 evo, for $120 less than nomal</a></h5>
                                                     <ul>
                                                         <li>by <span>Admin</span></li>
-                                                        <li><i class="fa fa-clock-o"></i> Aug 01, 2019</li>
+                                                        <li><i class="fa fa-clock-o"></i> <?= date('M d, Y');?></li>
                                                         <li><i class="fa fa-comment-o"></i> 20</li>
                                                     </ul>
                                                 </div>
@@ -728,7 +721,7 @@
                                                             <h6><a href="#">Downwell and space hulk: tactics are coming
                                                                     to...</a></h6>
                                                             <ul>
-                                                                <li><i class="fa fa-clock-o"></i> Aug 01, 2019</li>
+                                                                <li><i class="fa fa-clock-o"></i> <?= date('M d, Y');?></li>
                                                                 <li><i class="fa fa-comment-o"></i> 20</li>
                                                             </ul>
                                                         </div>
@@ -743,7 +736,7 @@
                                                             <h6><a href="#">Downwell and space hulk: tactics are coming
                                                                     to...</a></h6>
                                                             <ul>
-                                                                <li><i class="fa fa-clock-o"></i> Aug 01, 2019</li>
+                                                                <li><i class="fa fa-clock-o"></i> <?= date('M d, Y');?></li>
                                                                 <li><i class="fa fa-comment-o"></i> 20</li>
                                                             </ul>
                                                         </div>
@@ -758,7 +751,7 @@
                                                             <h6><a href="#">Downwell and space hulk: tactics are coming
                                                                     to...</a></h6>
                                                             <ul>
-                                                                <li><i class="fa fa-clock-o"></i> Aug 01, 2019</li>
+                                                                <li><i class="fa fa-clock-o"></i> <?= date('M d, Y');?></li>
                                                                 <li><i class="fa fa-comment-o"></i> 20</li>
                                                             </ul>
                                                         </div>
@@ -774,7 +767,7 @@
                                                             970 evo, for $120 less than nomal</a></h5>
                                                     <ul>
                                                         <li>by <span>Admin</span></li>
-                                                        <li><i class="fa fa-clock-o"></i> Aug 01, 2019</li>
+                                                        <li><i class="fa fa-clock-o"></i> <?= date('M d, Y');?></li>
                                                         <li><i class="fa fa-comment-o"></i> 20</li>
                                                     </ul>
                                                 </div>
@@ -789,7 +782,7 @@
                                                             <h6><a href="#">Downwell and space hulk: tactics are coming
                                                                     to...</a></h6>
                                                             <ul>
-                                                                <li><i class="fa fa-clock-o"></i> Aug 01, 2019</li>
+                                                                <li><i class="fa fa-clock-o"></i> <?= date('M d, Y');?></li>
                                                                 <li><i class="fa fa-comment-o"></i> 20</li>
                                                             </ul>
                                                         </div>
@@ -804,7 +797,7 @@
                                                             <h6><a href="#">Downwell and space hulk: tactics are coming
                                                                     to...</a></h6>
                                                             <ul>
-                                                                <li><i class="fa fa-clock-o"></i> Aug 01, 2019</li>
+                                                                <li><i class="fa fa-clock-o"></i> <?= date('M d, Y');?></li>
                                                                 <li><i class="fa fa-comment-o"></i> 20</li>
                                                             </ul>
                                                         </div>
@@ -819,7 +812,7 @@
                                                             <h6><a href="#">Downwell and space hulk: tactics are coming
                                                                     to...</a></h6>
                                                             <ul>
-                                                                <li><i class="fa fa-clock-o"></i> Aug 01, 2019</li>
+                                                                <li><i class="fa fa-clock-o"></i> <?= date('M d, Y');?></li>
                                                                 <li><i class="fa fa-comment-o"></i> 20</li>
                                                             </ul>
                                                         </div>
@@ -841,7 +834,7 @@
                                                             970 evo, for $120 less than nomal</a></h5>
                                                     <ul>
                                                         <li>by <span>Admin</span></li>
-                                                        <li><i class="fa fa-clock-o"></i> Aug 01, 2019</li>
+                                                        <li><i class="fa fa-clock-o"></i> <?= date('M d, Y');?></li>
                                                         <li><i class="fa fa-comment-o"></i> 20</li>
                                                     </ul>
                                                 </div>
@@ -856,7 +849,7 @@
                                                             <h6><a href="#">Downwell and space hulk: tactics are coming
                                                                     to...</a></h6>
                                                             <ul>
-                                                                <li><i class="fa fa-clock-o"></i> Aug 01, 2019</li>
+                                                                <li><i class="fa fa-clock-o"></i> <?= date('M d, Y');?></li>
                                                                 <li><i class="fa fa-comment-o"></i> 20</li>
                                                             </ul>
                                                         </div>
@@ -871,7 +864,7 @@
                                                             <h6><a href="#">Downwell and space hulk: tactics are coming
                                                                     to...</a></h6>
                                                             <ul>
-                                                                <li><i class="fa fa-clock-o"></i> Aug 01, 2019</li>
+                                                                <li><i class="fa fa-clock-o"></i> <?= date('M d, Y');?></li>
                                                                 <li><i class="fa fa-comment-o"></i> 20</li>
                                                             </ul>
                                                         </div>
@@ -886,7 +879,7 @@
                                                             <h6><a href="#">Downwell and space hulk: tactics are coming
                                                                     to...</a></h6>
                                                             <ul>
-                                                                <li><i class="fa fa-clock-o"></i> Aug 01, 2019</li>
+                                                                <li><i class="fa fa-clock-o"></i> <?= date('M d, Y');?></li>
                                                                 <li><i class="fa fa-comment-o"></i> 20</li>
                                                             </ul>
                                                         </div>
@@ -902,7 +895,7 @@
                                                             970 evo, for $120 less than nomal</a></h5>
                                                     <ul>
                                                         <li>by <span>Admin</span></li>
-                                                        <li><i class="fa fa-clock-o"></i> Aug 01, 2019</li>
+                                                        <li><i class="fa fa-clock-o"></i> <?= date('M d, Y');?></li>
                                                         <li><i class="fa fa-comment-o"></i> 20</li>
                                                     </ul>
                                                 </div>
@@ -917,7 +910,7 @@
                                                             <h6><a href="#">Downwell and space hulk: tactics are coming
                                                                     to...</a></h6>
                                                             <ul>
-                                                                <li><i class="fa fa-clock-o"></i> Aug 01, 2019</li>
+                                                                <li><i class="fa fa-clock-o"></i> <?= date('M d, Y');?></li>
                                                                 <li><i class="fa fa-comment-o"></i> 20</li>
                                                             </ul>
                                                         </div>
@@ -932,7 +925,7 @@
                                                             <h6><a href="#">Downwell and space hulk: tactics are coming
                                                                     to...</a></h6>
                                                             <ul>
-                                                                <li><i class="fa fa-clock-o"></i> Aug 01, 2019</li>
+                                                                <li><i class="fa fa-clock-o"></i> <?= date('M d, Y');?></li>
                                                                 <li><i class="fa fa-comment-o"></i> 20</li>
                                                             </ul>
                                                         </div>
@@ -947,7 +940,7 @@
                                                             <h6><a href="#">Downwell and space hulk: tactics are coming
                                                                     to...</a></h6>
                                                             <ul>
-                                                                <li><i class="fa fa-clock-o"></i> Aug 01, 2019</li>
+                                                                <li><i class="fa fa-clock-o"></i> <?= date('M d, Y');?></li>
                                                                 <li><i class="fa fa-comment-o"></i> 20</li>
                                                             </ul>
                                                         </div>
@@ -1002,7 +995,7 @@
                                     <h6><a href="#">A Monster Prom poster got hijacked for a Papa Roach concert...</a>
                                     </h6>
                                     <ul>
-                                        <li><i class="fa fa-clock-o"></i> Aug 01, 2019</li>
+                                        <li><i class="fa fa-clock-o"></i> <?= date('M d, Y');?></li>
                                         <li><i class="fa fa-comment-o"></i> 12</li>
                                     </ul>
                                 </div>
@@ -1014,7 +1007,7 @@
                                 <div class="ti-text">
                                     <h6><a href="#">Facebook wants to read your thoughts with its augmented...</a></h6>
                                     <ul>
-                                        <li><i class="fa fa-clock-o"></i> Aug 01, 2019</li>
+                                        <li><i class="fa fa-clock-o"></i> <?= date('M d, Y');?></li>
                                         <li><i class="fa fa-comment-o"></i> 12</li>
                                     </ul>
                                 </div>
@@ -1027,7 +1020,7 @@
                                     <h6><a href="#">This gaming laptop with a GTX 1660 Ti and 32GB of RAM is down...</a>
                                     </h6>
                                     <ul>
-                                        <li><i class="fa fa-clock-o"></i> Aug 01, 2019</li>
+                                        <li><i class="fa fa-clock-o"></i> <?= date('M d, Y');?></li>
                                         <li><i class="fa fa-comment-o"></i> 12</li>
                                     </ul>
                                 </div>
@@ -1039,7 +1032,7 @@
                                 <div class="ti-text">
                                     <h6><a href="#">Jalopy developer is making a game where you 'build stuff...</a></h6>
                                     <ul>
-                                        <li><i class="fa fa-clock-o"></i> Aug 01, 2019</li>
+                                        <li><i class="fa fa-clock-o"></i> <?= date('M d, Y');?></li>
                                         <li><i class="fa fa-comment-o"></i> 12</li>
                                     </ul>
                                 </div>
@@ -1089,7 +1082,7 @@
                                                     class="play-btn video-popup"><i class="fa fa-play"></i></a>
                                                 <div class="vg-text">
                                                     <ul>
-                                                        <li><i class="fa fa-clock-o"></i> Aug 01, 2019</li>
+                                                        <li><i class="fa fa-clock-o"></i> <?= date('M d, Y');?></li>
                                                         <li><i class="fa fa-comment-o"></i> 12</li>
                                                     </ul>
 
@@ -1102,7 +1095,7 @@
                                                     class="play-btn video-popup"><i class="fa fa-play"></i></a>
                                                 <div class="vg-text">
                                                     <ul>
-                                                        <li><i class="fa fa-clock-o"></i> Aug 01, 2019</li>
+                                                        <li><i class="fa fa-clock-o"></i> <?= date('M d, Y');?></li>
                                                         <li><i class="fa fa-comment-o"></i> 12</li>
                                                     </ul>
                                                 
@@ -1149,7 +1142,7 @@
                                                 <div class="vg-text">
                                                     
                                                     <ul>
-                                                        <li><i class="fa fa-clock-o"></i> Aug 01, 2019</li>
+                                                        <li><i class="fa fa-clock-o"></i> <?= date('M d, Y');?></li>
                                                         <li><i class="fa fa-comment-o"></i> 12</li>
                                                     </ul>
                                                 </div>
@@ -1162,7 +1155,7 @@
                                                 <div class="vg-text">
                                                    
                                                     <ul>
-                                                        <li><i class="fa fa-clock-o"></i> Aug 01, 2019</li>
+                                                        <li><i class="fa fa-clock-o"></i> <?= date('M d, Y');?></li>
                                                         <li><i class="fa fa-comment-o"></i> 12</li>
                                                     </ul>
                                                 </div>
@@ -1214,7 +1207,7 @@
                                                 <div class="vg-text">
                                                    
                                                     <ul>
-                                                        <li><i class="fa fa-clock-o"></i> Aug 01, 2019</li>
+                                                        <li><i class="fa fa-clock-o"></i> <?= date('M d, Y');?></li>
                                                         <li><i class="fa fa-comment-o"></i> 12</li>
                                                     </ul>
                                                 </div>
@@ -1227,7 +1220,7 @@
                                                 <div class="vg-text">
                                                     
                                                     <ul>
-                                                        <li><i class="fa fa-clock-o"></i> Aug 01, 2019</li>
+                                                        <li><i class="fa fa-clock-o"></i> <?= date('M d, Y');?></li>
                                                         <li><i class="fa fa-comment-o"></i> 12</li>
                                                     </ul>
                                                 </div>
@@ -1273,7 +1266,7 @@
                                                 <div class="vg-text">
                                                     
                                                     <ul>
-                                                        <li><i class="fa fa-clock-o"></i> Aug 01, 2019</li>
+                                                        <li><i class="fa fa-clock-o"></i> <?= date('M d, Y');?></li>
                                                         <li><i class="fa fa-comment-o"></i> 12</li>
                                                     </ul>
                                                 </div>
@@ -1286,7 +1279,7 @@
                                                 <div class="vg-text">
                                                     
                                                     <ul>
-                                                        <li><i class="fa fa-clock-o"></i> Aug 01, 2019</li>
+                                                        <li><i class="fa fa-clock-o"></i> <?= date('M d, Y');?></li>
                                                         <li><i class="fa fa-comment-o"></i> 12</li>
                                                     </ul>
                                                 </div>
@@ -1338,7 +1331,7 @@
                                                 <div class="vg-text">
                                                     
                                                     <ul>
-                                                        <li><i class="fa fa-clock-o"></i> Aug 01, 2019</li>
+                                                        <li><i class="fa fa-clock-o"></i> <?= date('M d, Y');?></li>
                                                         <li><i class="fa fa-comment-o"></i> 12</li>
                                                     </ul>
                                                 </div>
@@ -1351,7 +1344,7 @@
                                                 <div class="vg-text">
                                                    
                                                     <ul>
-                                                        <li><i class="fa fa-clock-o"></i> Aug 01, 2019</li>
+                                                        <li><i class="fa fa-clock-o"></i> <?= date('M d, Y');?></li>
                                                         <li><i class="fa fa-comment-o"></i> 12</li>
                                                     </ul>
                                                 </div>
@@ -1398,7 +1391,7 @@
                                                     <h5>THROUGH THE AGES' FIRST EXPANSION WILL BE RELEASING ON DIGITAL
                                                         PLATFORMS...</h5>
                                                     <ul>
-                                                        <li><i class="fa fa-clock-o"></i> Aug 01, 2019</li>
+                                                        <li><i class="fa fa-clock-o"></i> <?= date('M d, Y');?></li>
                                                         <li><i class="fa fa-comment-o"></i> 12</li>
                                                     </ul>
                                                 </div>
@@ -1412,7 +1405,7 @@
                                                     <h5>THROUGH THE AGES' FIRST EXPANSION WILL BE RELEASING ON DIGITAL
                                                         PLATFORMS...</h5>
                                                     <ul>
-                                                        <li><i class="fa fa-clock-o"></i> Aug 01, 2019</li>
+                                                        <li><i class="fa fa-clock-o"></i> <?= date('M d, Y');?></li>
                                                         <li><i class="fa fa-comment-o"></i> 12</li>
                                                     </ul>
                                                 </div>
@@ -1465,7 +1458,7 @@
                                                     <h5>THROUGH THE AGES' FIRST EXPANSION WILL BE RELEASING ON DIGITAL
                                                         PLATFORMS...</h5>
                                                     <ul>
-                                                        <li><i class="fa fa-clock-o"></i> Aug 01, 2019</li>
+                                                        <li><i class="fa fa-clock-o"></i> <?= date('M d, Y');?></li>
                                                         <li><i class="fa fa-comment-o"></i> 12</li>
                                                     </ul>
                                                 </div>
@@ -1479,7 +1472,7 @@
                                                     <h5>THROUGH THE AGES' FIRST EXPANSION WILL BE RELEASING ON DIGITAL
                                                         PLATFORMS...</h5>
                                                     <ul>
-                                                        <li><i class="fa fa-clock-o"></i> Aug 01, 2019</li>
+                                                        <li><i class="fa fa-clock-o"></i> <?= date('M d, Y');?></li>
                                                         <li><i class="fa fa-comment-o"></i> 12</li>
                                                     </ul>
                                                 </div>
@@ -1526,7 +1519,7 @@
                                                     <h5>THROUGH THE AGES' FIRST EXPANSION WILL BE RELEASING ON DIGITAL
                                                         PLATFORMS...</h5>
                                                     <ul>
-                                                        <li><i class="fa fa-clock-o"></i> Aug 01, 2019</li>
+                                                        <li><i class="fa fa-clock-o"></i> <?= date('M d, Y');?></li>
                                                         <li><i class="fa fa-comment-o"></i> 12</li>
                                                     </ul>
                                                 </div>
@@ -1540,7 +1533,7 @@
                                                     <h5>THROUGH THE AGES' FIRST EXPANSION WILL BE RELEASING ON DIGITAL
                                                         PLATFORMS...</h5>
                                                     <ul>
-                                                        <li><i class="fa fa-clock-o"></i> Aug 01, 2019</li>
+                                                        <li><i class="fa fa-clock-o"></i> <?= date('M d, Y');?></li>
                                                         <li><i class="fa fa-comment-o"></i> 12</li>
                                                     </ul>
                                                 </div>
@@ -1603,7 +1596,7 @@
                             <h5><a href="#">Here's an hour of side-quests from The Outer Worlds...</a></h5>
                             <ul>
                                 <li>by <span>Admin</span></li>
-                                <li><i class="fa fa-clock-o"></i> Aug 01, 2019</li>
+                                <li><i class="fa fa-clock-o"></i> <?= date('M d, Y');?></li>
                                 <li><i class="fa fa-comment-o"></i> 20</li>
                             </ul>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
@@ -1619,7 +1612,7 @@
                             <h5><a href="#">Infinity Ward's focus isn't on battle royale, Call o...</a></h5>
                             <ul>
                                 <li>by <span>Admin</span></li>
-                                <li><i class="fa fa-clock-o"></i> Aug 01, 2019</li>
+                                <li><i class="fa fa-clock-o"></i> <?= date('M d, Y');?></li>
                                 <li><i class="fa fa-comment-o"></i> 20</li>
                             </ul>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
@@ -1635,7 +1628,7 @@
                             <h5><a href="#">Capcom asks select fans to test new Resident Evil game</a></h5>
                             <ul>
                                 <li>by <span>Admin</span></li>
-                                <li><i class="fa fa-clock-o"></i> Aug 01, 2019</li>
+                                <li><i class="fa fa-clock-o"></i> <?= date('M d, Y');?></li>
                                 <li><i class="fa fa-comment-o"></i> 20</li>
                             </ul>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
@@ -1651,7 +1644,7 @@
                             <h5><a href="#">Teamfight Tactics is in chaos after today's patch...</a></h5>
                             <ul>
                                 <li>by <span>Admin</span></li>
-                                <li><i class="fa fa-clock-o"></i> Aug 01, 2019</li>
+                                <li><i class="fa fa-clock-o"></i> <?= date('M d, Y');?></li>
                                 <li><i class="fa fa-comment-o"></i> 20</li>
                             </ul>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
@@ -1693,9 +1686,9 @@
                                     </div>
                                 </div>
                                 <div class="bp-text">
-                                    <h6><a href="#">This gaming laptop with a GTX 1660...</a></h6>
+                                    <h6><a href="#">This gaming videocard with a RTX 4090...</a></h6>
                                     <ul>
-                                        <li><i class="fa fa-clock-o"></i> Aug 01, 2019</li>
+                                        <li><i class="fa fa-clock-o"></i> <?= date('M d, Y');?></li>
                                         <li><i class="fa fa-comment-o"></i> 20</li>
                                     </ul>
                                 </div>
@@ -1711,9 +1704,9 @@
                                     </div>
                                 </div>
                                 <div class="bp-text">
-                                    <h6><a href="#">This gaming laptop with a GTX 1660...</a></h6>
+                                    <h6><a href="#">This gaming videocard with a RTX 3090ti...</a></h6>
                                     <ul>
-                                        <li><i class="fa fa-clock-o"></i> Aug 01, 2019</li>
+                                        <li><i class="fa fa-clock-o"></i> <?= date('M d, Y');?></li>
                                         <li><i class="fa fa-comment-o"></i> 20</li>
                                     </ul>
                                 </div>
@@ -1729,9 +1722,9 @@
                                     </div>
                                 </div>
                                 <div class="bp-text">
-                                    <h6><a href="#">This gaming laptop with a GTX 1660...</a></h6>
+                                    <h6><a href="#">This gaming videocard with a RTX 4080ti...</a></h6>
                                     <ul>
-                                        <li><i class="fa fa-clock-o"></i> Aug 01, 2019</li>
+                                        <li><i class="fa fa-clock-o"></i> <?= date('M d, Y');?></li>
                                         <li><i class="fa fa-comment-o"></i> 20</li>
                                     </ul>
                                 </div>
@@ -1747,9 +1740,9 @@
                                     </div>
                                 </div>
                                 <div class="bp-text">
-                                    <h6><a href="#">This gaming laptop with a GTX 1660...</a></h6>
+                                    <h6><a href="#">This gaming videocard with a RTX 4080...</a></h6>
                                     <ul>
-                                        <li><i class="fa fa-clock-o"></i> Aug 01, 2019</li>
+                                        <li><i class="fa fa-clock-o"></i> <?= date('M d, Y');?></li>
                                         <li><i class="fa fa-comment-o"></i> 20</li>
                                     </ul>
                                 </div>
@@ -1763,7 +1756,7 @@
                             <form action="#">
                                 <input type="text" placeholder="Name">
                                 <input type="text" placeholder="Email">
-                                <button type="submit"><span>Subscribe</span></button>
+                                <button style="background-color:#EC6090FF;" type="submit"><span>Subscribe</span></button>
                             </form>
                         </div>
                     </div>
@@ -1779,40 +1772,10 @@
    ?>
     <!-- Footer Section End -->
 
-    <!-- Sign Up Section Begin -->
-    <div class="signup-section">
-        <div class="signup-close"><i class="fa fa-close"></i></div>
-        <div class="signup-text">
-            <div class="container">
-                <div class="signup-title">
-                    <h2>Sign up</h2>
-                    <p>Fill out the form below to recieve a free and confidential</p>
-                </div>
-                <form action="#" class="signup-form">
-                    <div class="sf-input-list">
-                        <input type="text" class="input-value" placeholder="User Name*">
-                        <input type="text" class="input-value" placeholder="Password">
-                        <input type="text" class="input-value" placeholder="Confirm Password">
-                        <input type="text" class="input-value" placeholder="Email Address">
-                        <input type="text" class="input-value" placeholder="Full Name">
-                    </div>
-                    <div class="radio-check">
-                        <label for="rc-agree">I agree with the term & conditions
-                            <input type="checkbox" id="rc-agree">
-                            <span class="checkbox"></span>
-                        </label>
-                    </div>
-                    <button type="submit"><span>REGISTER NOW</span></button>
-                </form>
-            </div>
-        </div>
-    </div>
-    <!-- Sign Up Section End -->
-
     <!-- Search model Begin -->
     <div class="search-model">
         <div class="h-100 d-flex align-items-center justify-content-center">
-            <div class="search-close-switch">+</div>
+            <div class="search-close-switch"></div>
             <form class="search-model-form">
                 <input type="text" id="search-input" placeholder="Search here.....">
             </form>
