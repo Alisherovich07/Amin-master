@@ -45,29 +45,29 @@
          
         ?>
 
-            <header>Sign Up</header>
+            <header style="color:#fff;">Sign Up</header>
             <form action="" method="post">
                 <div class="field input">
-                    <label for="username">Username</label>
+                    <label style="color:#fff;" for="username">Username</label>
                     <input type="text" name="username" id="username" autocomplete="off" required>
                 </div>
 
                 <div class="field input">
-                    <label for="email">Email</label>
+                    <label style="color:#fff;" for="email">Email</label>
                     <input type="text" name="email" id="email"  required>
                 </div>
 
                 <div class="field input">
-                    <label for="password">Password</label>
+                    <label style="color:#fff" for="password">Password</label>
                     <input type="password" name="password" id="password"  required>
                 </div>
 
                 <div class="field">
                     
-                    <input type="submit" class="btn" name="submit" value="Register" required>
+                    <input style="background-color:#E718A3FF;" type="submit" class="btn" name="submit" value="Register" required>
                 </div>
-                <div class="links">
-                    Already a member? <a href="index.php">Sign In</a>
+                <div class="links" style="color:#fff;">
+                    Already a member? <a style="color:#E718A3FF;text-decoration:none;" href="login.php">Sign In</a>
                 </div>
             </form>
         </div>
@@ -75,3 +75,12 @@
       </div>
 </body>
 </html>
+<style>
+    body{
+        background:#17181A;
+    }
+    .field input:hover{
+        background-color:#E718A3FF;
+        transition:1s;
+    }
+</style>

@@ -1753,10 +1753,8 @@
                                 <h5>Subscribe</h5>
                             </div>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, eiusmod tempor.</p>
-                            <form action="#">
-                                <input type="text" placeholder="Name">
-                                <input type="text" placeholder="Email">
-                                <button style="background-color:#EC6090FF;" type="submit"><span>Subscribe</span></button>
+                            <form action="">
+                               <a href="login.php"><button style="background-color:#EC6090FF;margin-top:50px" type="submit"><span>Subscribe</span></button></a>
                             </form>
                         </div>
                     </div>

@@ -7,10 +7,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="./css/login.css">
     <title>Login</title>
 </head>
 <body>
+    
       <div class="container">
         <div class="box form-box">
             <?php 
@@ -41,24 +42,24 @@
 
             
             ?>
-            <header>Login</header>
+            <header style="color:#fff">Login</header>
             <form action="" method="post">
                 <div class="field input">
-                    <label for="email">Email</label>
+                    <label style="color:#fff" for="email">Email</label>
                     <input type="text" name="email" id="email" autocomplete="off" required>
                 </div>
 
                 <div class="field input">
-                    <label for="password">Password</label>
+                    <label style="color:#fff" for="password">Password</label>
                     <input type="password" name="password" id="password" autocomplete="off" required>
                 </div>
 
                 <div class="field">
                     
-                    <input type="submit" class="btn" name="submit" value="Login" required>
+                    <input style="background:#E718A3FF;" type="submit" class="btn" name="submit" value="Login" required>
                 </div>
-                <div class="links">
-                    Don't have account? <a href="register.php">Sign Up Now</a>
+                <div class="links" style="color:#fff">
+                    Don't have account? <a style="color:#E718A3FF;text-decoration:none" href="register.php">Sign Up Now</a>
                 </div>
             </form>
         </div>
@@ -66,3 +67,12 @@
       </div>
 </body>
 </html>
+<style>
+    body{
+        background:#17181A;
+    }
+    .field input:hover{
+        background-color:#E71B8B65;
+        transition:1s
+    }
+</style>
