@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #17181AFF;
+}
+
+.nav h2{
+    color: #E718A3FF;
+}
+
+.cyberpunk img{
+    width: 300px;
+    height: 250px;
+    background-size: cover;
+}

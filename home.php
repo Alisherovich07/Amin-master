@@ -16,6 +16,10 @@
     <title>Home</title>
 </head>
 <body>
+     <!-- Page Preloder -->
+     <div id="preloder">
+        <div class="loader"></div>
+    </div>
     <div class="nav">
         <div class="logo">
             <p><a href="home.php">Logo</a> </p>
@@ -58,4 +62,13 @@
 
     </main>
 </body>
+  <!-- Js Plugins -->
+  <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/circle-progress.min.js"></script>
+    <script src="js/jquery.barfiller.js"></script>
+    <script src="js/jquery.slicknav.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/main.js"></script>
 </html>

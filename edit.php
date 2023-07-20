@@ -34,7 +34,7 @@
                 $email = $_POST['email'];
                 $id = $_SESSION['id'];
 
-                $edit_query = mysqli_query($con,"UPDATE users SET Username='$username', Email='$email', WHERE Id='$id' ") or die("error occurred");
+                $edit_query = ("UPDATE `users` SET`Username`='$username',`Email`='$email' WHERE  `Id`='$id'") or die("error occurred");
 
                 if($edit_query){
                     echo "<div class='message'>
@@ -46,10 +46,10 @@
                }else{
 
                 $id = $_SESSION['id'];
-                $query = mysqli_query($con,"SELECT*FROM users WHERE Id=$id ");
+                $query = mysqli_query($con,"SELECT*FROM `users` WHERE Id=$id ");
 
                 while($result = mysqli_fetch_assoc($query)){
-                    $res_Uname = $result['Username'];
+                    $res_Uname = $result['Username'];   
                     $res_Email = $result['Email'];
                 }
 
@@ -74,5 +74,14 @@
         </div>
         <?php } ?>
       </div>
+        <!-- Js Plugins -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/circle-progress.min.js"></script>
+    <script src="js/jquery.barfiller.js"></script>
+    <script src="js/jquery.slicknav.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>

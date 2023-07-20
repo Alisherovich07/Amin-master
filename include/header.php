@@ -4,6 +4,7 @@
                 <div class="row">
                     <div class="col-lg-6 col-md-8">
                         <div class="ht-widget">
+    
                             <ul>
                                 <a style="color:#fff" href="./login.php"><li class="signup-switch signup-open"><i class="fa fa-sign-out"></i>Sign Up </a>
                                 </li>
@@ -132,7 +133,7 @@
                             </ul>
                         </li>
                         <li>
-                            <a href="#"><span>Windows<i class="fa fa-angle-down"></i></span></a>
+                            <a href="windows.php"><span>Windows<i class="fa fa-angle-down"></i></span></a>
                             <ul class="dropdown">
                                 <li><a href="./online-games.php">Online Games</a></li>
                                 <li><a href="./shooter.php">Shooter</a></li>

@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #17181AFF;
+}
+
+.game-photo {
+    margin-top:15px;
+    margin-left: 15px;
+}
+.game-photo img{
+    width:450px;
+    height:300px;
+    background-size:cover;
+}
+h2 {
+    color: #fff;
+    margin-left: 30px;
+    font-size: 50px;
+}
+
+.update-date p{
+    color: #fff;
+    margin-left: 30px;
+}
+
+.game-character p{
+    color: #fff;
+    font-size: 15px;
+    margin-left: 500px;
+    margin-top: -300px;
+}
+
+.about-game h3{
+    color: #E718A3FF;
+    margin-left: 30px;
+}
+
+.about-game p{
+    color: #fff;
+    margin-left: 30px;
+}
+
+.the-developed-world h3{
+    color: #E718A3FF;
+    margin-left: 30px;
+}
+
+.the-developed-world p{
+    color: #fff;
+    margin-left: 30px;
+}
+
+.poverty-and-luxury h3{
+    color: #E718A3FF;
+    margin-left: 30px;
+}
+
+.poverty-and-luxury p {
+    color: #fff;
+    margin-left: 30px;
+}
+
+.the-only-life h3{
+    color: #E718A3FF;
+    margin-left: 30px;
+}
+
+.the-only-life p{
+    color: #fff;
+    margin-left: 30px;
+}
+
+.features-of-the-game h3{
+    color: #E718A3FF;
+    margin-left: 30px;
+}
+
+.features-of-the-game p{
+    color: #fff;
+    margin-left: 30px;
+}
+
+
+.trailer h3{
+    color: #E718A3FF;
+    margin-left: 30px;
+}
+
+.trailer .you-tube{
+    width: 700px;
+    height: 350px;
+    margin-left: 275px;
+}
+
+.screenshot h3{
+    color: #E718A3FF;
+}
+
+.screenshot img{
+    width: 300px;
+    height: 180px;
+    background-size: cover;
+    margin-left: 30px;
+}
+
+.screenshot img:hover{
+    width: 350px;
+    height: 230px;
+    transition: 0.5s;
+}
+
+.download h3{
+    margin-left: 545px;
+    color: #E718A3FF;
+}
+
+.download .download-btn{
+    outline: none;
+    border: none;
+    color: #fff;
+    display: flex;
+    cursor: pointer;
+    padding: 16px 25px;
+    border-radius: 6px;
+    align-items: center;
+    white-space: nowrap;
+    background: #E718A3FF;
+    transition: all 0.2s ease;
+    margin-left: 500px;
+  }
+  .dwonload .download-btn:hover{
+    background: #E718A3FF;
+  }
+  .download .download-btn.timer{
+    color: #fff;
+    background: none;
+    transition: none;
+    font-size: 20px;
+    pointer-events: none;
+  }
+  .download .download-btn.timer b{
+    color: #E718A3FF;
+    padding: 0 8px;
+  }
+  .download .download-btn .icon{
+    font-size: 20px;
+  }
+  .download .download-btn .text{
+    font-size: 20px;
+    padding-left: 10px;
+  }
+
+  .repack-features h4{
+    color: #E718A3FF;
+    margin-left: 30px;
+  }
+
+  .repack-features p{
+    color: #fff;
+    margin-left: 30px;
+  }
+
+  
+  
+  
