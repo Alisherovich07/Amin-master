@@ -5,15 +5,83 @@
 }
 
 body{
-    background: #17181AFF;
+    background: #000;
 }
 
 .nav h2{
     color: #E718A3FF;
 }
 
-.cyberpunk img{
-    width: 300px;
+.game-1 a img {
+    width: 330px;
     height: 250px;
     background-size: cover;
+    padding: 15px;
+    margin-left: 45px;
+}
+
+.game-1 a .gta5 {
+   position: absolute;
+   left: 950px;
+   top: 640px;
+}  
+
+.game-1 a .gta5:hover{
+    color: #E718A3FF;
+}
+
+.game-1 a .spiderman{
+    position: absolute;
+    left: 500px;
+    top: 640px;
+}
+
+.game-1 a .spiderman:hover{
+    color: #E718A3FF;
+    
+}
+
+.game-1 a .cyberpunk{
+    position: absolute;
+    left: 163px;
+    top: 640px;
+}
+
+.game-1 a .cyberpunk:hover{
+    color: #E718A3FF;
+}
+
+.game-2 a img {
+    width: 330px;
+    height: 250px;
+    background-size: cover;
+    padding: 15px;
+    margin-left: 45px;
+}
+
+.game-2 .game-name-2 a .miles-morales{
+    position: absolute;
+    left: 130px;
+}
+
+.game-2 .game-name-2 a .miles-morales:hover{
+    color: #E718A3FF;
+}
+
+.game-2 .game-name-2 a .resident-evil{
+    position: absolute;
+    left: 550px;
+}
+
+.game-2 .game-name-2 a .resident-evil:hover{
+    color: #E718A3FF;
+}
+
+.game-2 .game-name-2 a .last-us{
+    position: absolute;
+    left: 930px;
+}
+
+.game-2 .game-name-2 a .last-us:hover{
+    color: #E718A3FF;
 }

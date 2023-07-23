@@ -100,8 +100,29 @@
         <div class="nav">
             <h2>All Games</h2>
         </div><br>
-        <div class="cyberpunk">
-        <img src="./img/cyberpunk/cyberpunk2077-1.jpg" alt="">
+        <div class="game-1">
+            <div class="image-1">
+        <a href="./game/cyberpunk.php"><img src="./img/cyberpunk/cyberpunk2077-1.jpg" alt=""></a>
+        <a href="./game/spiderman-remastered.php"><img src="./img/spiderman-remastered/spiderman-1.jpg" alt=""></a>
+        <a href="./game/gta5.php"><img src="./img/gta5/gta5-1.jpg" alt=""></a>
+        </div>
+        <div class="game-name-1">
+        <a href="./game/cyberpunk.php"><h4 class="cyberpunk">Cyberpunk 2077</h4></a>
+        <a href="./game/spiderman-remastered.php"><h4 class="spiderman">Marvel's Spider-man<br> Remastered</h4></a>
+        <a href="./game/gta5.php"><h4 class="gta5">Gta V(5)</h4></a> 
+        </div><br>
+        </div><br><br>
+        <div class="game-2">
+            <div class="imgae-2">
+                <a href="./game/spiderman-miles-morales.php"><img src="./img/spiderman-miles-morales/spiderman-miles-morales-1.jpg" alt=""></a>
+                <a href="./game/resident-evil4.php"><img src="./img/resident-evil4/resident-evil4-1.jpg" alt=""></a>
+                <a href="./game/the-last-of-us-part1.php"><img src="./img/the-last-of-us-part1/the-last-of-us-part1-7.jpg" alt=""></a>
+            </div>
+            <div class="game-name-2">
+                <a href="./game/spiderman-miles-morales.php"><h4 class="miles-morales">Marvel's Spider-man<br>Miles Morales</h4></a>
+                <a href="./game/resident-evil4.php"><h4 class="resident-evil">Resident Evil</h4></a>
+                <a href="./game/the-last-of-us-part1.php"><h4 class="last-us">The Last Of Us</h4></a>
+            </div>
         </div>
         <?php
         include_once('./include/footer.php');

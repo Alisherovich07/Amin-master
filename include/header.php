@@ -109,7 +109,7 @@
                                             <img src="img/megamenu/mm-10.jpg" alt="">
                                         </div>
                                         <div class="mw-text">
-                                            <h6><a href="https://store.steampowered.com/app/2050650/Resident_Evil_4/">Capcom asks select fans to test new Resident Evil game</a>
+                                            <h6><a href="./game/resident-evil4.php">Capcom asks select fans to test new Resident Evil game</a>
                                             </h6>
                                             <ul>
                                                 <li><i class="fa fa-clock-o"></i> <?= date('M d, Y');?></li>
@@ -143,7 +143,7 @@
                                 <li><a href="./strategy.php">Strategy</a></li>
                             </ul>
                         </li>
-                        <li><a href="#"><span>Videos <i class="fa fa-angle-down"></i></span></a></li>
+                        <li><a href="./stream/lobby.html"><span>Videos</a></li>
                     </ul>
                 </div>
             </div>
